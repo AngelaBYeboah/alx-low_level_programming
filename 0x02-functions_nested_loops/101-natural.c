@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print the sum of all multiplws of 3 or 5 up to 1024
- * Return: Always (success)
+ * main - Prints the sum of all multiplws of 3 or 5 up to 1024
+ * Return: Always (Success)
  */
 int main(void)
 
@@ -11,10 +11,10 @@ int main(void)
 
 	while (i < 1024)
 	{
-		if ((i % 3 == 0) || (i & 5 == 0))
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-					z += i;
-				}
+		z += i;
+		}
 		i++;
 	}
 	printf("%d\n", z);
