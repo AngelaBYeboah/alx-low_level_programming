@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 52 fibinacci numbers
- * Return: Nothing!
+ * main - Entry point
+ * fibinacci - Prints the first 52 fibinacci numbers
+ * Return: Always (Success)
+ *
  */
 int main(void)
 
