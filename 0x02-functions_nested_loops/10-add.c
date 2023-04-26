@@ -3,6 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
+ * add - add the integers
  * Return: Always 0 (Success)
  */
 
