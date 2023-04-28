@@ -10,7 +10,7 @@
  *Return: void
  */
 
-void print_remaing_days(int month, int year, int day)
+void print_remaining_days(int month, int year, int day)
 
 {
 	if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
