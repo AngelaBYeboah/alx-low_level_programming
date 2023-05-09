@@ -21,10 +21,10 @@ unsigned int _strspn(char *s, char *accept)
 				i++;
 				break;
 			}
-			else if (accept[r + 1] == '\0')
+			else if (accept[n + 1] == '\0')
 				return (i);
 		}
-		s++
+		s++;
 	}
 	return (i);
 }
