@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
-			{
-				e = argv[i];
+		{
+			e = argv[i];
 
 				for (k = 0; k < strlen(e); k++)
 				{
