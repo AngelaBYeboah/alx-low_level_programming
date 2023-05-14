@@ -11,8 +11,12 @@
 
 int main(int argc, char *argv[])
 {
-(void) argv; /*Ignore argv*/
-printf("%i\n", argc - 1);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[]);
+	}
 
 return (0);
 }
